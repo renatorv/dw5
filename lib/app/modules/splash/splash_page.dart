@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:vakinha_burger_mobile/app/core/ui/widgets/vakinha_button.dart';
-import '../auth/login/login_page.dart';
 import './splash_controller.dart';
 
 class SplashPage extends GetView<SplashController> {
@@ -33,7 +32,7 @@ class SplashPage extends GetView<SplashController> {
                   const SizedBox(height: 60),
                   VakinhaButton(
                     label: 'ACESSAR',
-                    onPressed: () => Get.offAllNamed(LoginPage.ROUTE_PAGE),
+                    onPressed: () => controller.checkLogged(),
                     width: context.widthTransformer(reducedBy: 40),
                     height: 35,
                   ),
