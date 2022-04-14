@@ -1,4 +1,3 @@
-import 'package:flutter/src/widgets/navigator.dart';
 import 'package:get/get.dart';
 import 'package:vakinha_burger_mobile/app/core/services/auth_service.dart';
 import 'package:vakinha_burger_mobile/app/modules/menu/menu_bindings.dart';
